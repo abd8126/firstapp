@@ -1,15 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReacrDOM from 'react-dom';
 
-ReactDOM.render(
-  <h1>Hello Anubhav, Welcome to React Tutorial</h1>,
-  document.getElementById('root')
-);
+const fname="Anubhav Bhardwaj";
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReacrDOM.render(
+  <>
+  <h1>My Name is {fname} </h1>
+  <p> a=6 b= 6 then a**b is equal to {5**5}</p>
+  </>,
+  
+  document.getElementById("root"));
