@@ -1,12 +1,19 @@
-import React from 'react';
-import ReacrDOM from 'react-dom';
+import react from "react";
+import ReactDOM from "react-dom";
 
-const fname="Anubhav Bhardwaj";
+const name = "Anubhav";
+const img1 = "https://picsum.photos/200/300";
+const img2 = "https://picsum.photos/200/300";
+const img3 = "https://picsum.photos/200/300";
+const links = "https://www.google.com";
 
-ReacrDOM.render(
+ReactDOM.render(
   <>
-  <h1>My Name is {fname} </h1>
-  <p> a=6 b= 6 then a**b is equal to {5**5}</p>
+  <h1 contentEditable="true"> My Name is {name} </h1>
+  <img src={img1} alt="randomimage" />
+  <img src={img2} alt="randomimage" />
+  <a href={links} alt="_google"/>
+  <img src={img3} alt="randomimage" />
+
   </>,
-  
   document.getElementById("root"));
