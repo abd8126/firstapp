@@ -12,8 +12,9 @@ ReactDOM.render(
   <h1 contentEditable="true"> My Name is {name} </h1>
   <img src={img1} alt="randomimage" />
   <img src={img2} alt="randomimage" />
-  <a href={links} alt="_google"/>
-  <img src={img3} alt="randomimage" />
+  <a href={links} target="_google">
+    <img src={img3} alt="randomimage" />
+    </a>
 
   </>,
   document.getElementById("root"));
